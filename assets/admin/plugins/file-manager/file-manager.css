@@ -1,0 +1,141 @@
+@media (min-width: 992px) {
+    .modal-lg {
+        width: 1100px !important;
+    }
+}
+
+.modal-file-manager .modal-body {
+    padding: 0;
+}
+
+.file-manager {
+    width: 100%;
+    display: table;
+}
+
+.file-manager-content {
+    height: 422px;
+    overflow-y: auto;
+}
+
+.file-manager-left {
+    width: 250px;
+    display: table-cell;
+    border-right: 1px solid #eee;
+    vertical-align: top;
+    padding: 15px;
+}
+
+.file-manager-left .image-preview {
+    display: block;
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.file-manager-left .image-preview img {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+.file-manager-right {
+    display: table-cell;
+    vertical-align: top;
+    padding: 15px;
+}
+
+.file-manager-left .btn-upload {
+    display: block;
+    font-size: 16px;
+    position: relative;
+}
+
+.col-file-manager {
+    padding: 5px;
+}
+
+.file-box {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    text-align: center;
+}
+
+#audio_file_manager .file-box, #video_file_manager .file-box {
+    height: 132px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.file-icon {
+    width: 80px;
+    margin: 0 auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.file-manager .selected {
+    box-shadow: 0 0 5px rgba(40, 174, 141, 1);
+    border: 1px solid rgba(40, 174, 141, 1);
+}
+
+.file-manager-footer {
+    margin-left: 240px;
+}
+
+.btn-file-delete {
+    display: none;
+}
+
+.btn-file-select {
+    display: none;
+}
+
+.file-manager-list-item-name {
+    width: 100%;
+    padding: 0 5px;
+    margin: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.input-file-label {
+    width: 190px;
+    background-color: #5bc0de;
+    color: #fff;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+.loader-file-manager {
+    display: none;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.loader-file-manager img {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
